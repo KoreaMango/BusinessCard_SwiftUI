@@ -11,6 +11,6 @@ struct ContainerView: View {
     }
 }
 
-#Preview(body: { 
+#Preview { 
     ContainerView()
-})
+}

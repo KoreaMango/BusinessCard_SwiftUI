@@ -11,8 +11,7 @@ struct ContentView: View {
             Image("iga x charming swift")
                 .resizable()
                 .frame(width: 200, height: 200)
-                // 아래 주석을 풀면 사진이 이동하는 것을 확인할 수 있습니다 (cmd + /)
-//                .offset(x: -300, y: 0) 
+                .offset(x: 0, y: 0) 
                 
             Text("IGA x Charming Swift")
                 .font(.system(size: 72, weight: .bold))
@@ -21,12 +20,10 @@ struct ContentView: View {
                 .font(.system(size: 36, weight: .medium))
                 .foregroundColor(.blue)
                 .padding()
-        }
-        
+        } 
     }
 }
 
-#Preview(body: { 
+#Preview { 
     ContainerView()
-})
-
+}
