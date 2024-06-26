@@ -12,7 +12,6 @@ struct ContentView: View {
                 .resizable()
                 .frame(width: 200, height: 200)
                 .offset(x: 0, y: 0) 
-                
             Text("IGA x Charming Swift")
                 .font(.system(size: 72, weight: .bold))
                 .padding()
