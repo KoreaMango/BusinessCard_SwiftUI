@@ -13,4 +13,4 @@
 - choo121600@ubuntu.com
 
 # Modifier 요약 정리
-- 
+- https://koreamango.notion.site/modifire-1-1e14ad0849d84c0cb2a09af4acc13446?pvs=4
